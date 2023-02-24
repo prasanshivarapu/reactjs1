@@ -1,0 +1,29 @@
+/* Write your code here. */
+body {
+  margin: 0px;
+}
+.bg123 {
+  background-color: #0f172a;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 150px;
+}
+.heading {
+  color: white;
+  font-size: 25px;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 64px;
+  }
+  .image {
+    height: 300px;
+  }
+}
